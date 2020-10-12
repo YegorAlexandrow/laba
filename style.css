@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto+Condensed:wght@300;400&display=swap');
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background: #e5e6f1;
+}
+
+main {
+    display: block;
+    margin: auto;
+    width: 700px;
+    padding: 60px;
+    padding-top: 2em;
+    background: #fff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+}
+
+.profile {
+
+}
+
+.profile__fullname {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+.profile__icon-link {
+    width: 0.8em;
+    height: 0.8em;
+}
+
+.profile__info-label {
+    display: inline-block;
+    width: 5em;
+    font-size: large;
+    font-weight: 300;
+}
+
+.profile__info-value {
+    display: inline-block;
+    font-size: large;
+    font-weight: 400;
+}
+
+.laba {
+    font-weight: 300;
+    margin-top: 5em;
+    font-size: large;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+}
+
+.laba__header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+h1, h2, h3, h4 {
+    transition: ease-in-out 0.2s;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, .2);
+    transform: translate(-2px, -2px);
+    color: #000e7a;
+}
